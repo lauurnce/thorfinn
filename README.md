@@ -43,3 +43,7 @@ It's written as a baseline anyone can use. Swap in your own sources, fill in the
 - `hub-sheet.md`: the structure of the hub Sheet and its tabs.
 - `SETUP.md`: the checklist to get the council running.
 - `CHANGELOG.md`: changes to the council over time.
+
+<br>
+
+<img src="art/wheatfield.svg" width="800" alt="Thorfinn standing in a golden wheat field under an open sky">
