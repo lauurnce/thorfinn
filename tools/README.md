@@ -39,3 +39,9 @@ Renders a member's art and description as one `.svg` card, with the text fitted 
 ```
 python tools/card2svg.py art/<name>.txt "Description." -o art/<name>-card.svg --side left
 ```
+
+For a full scene rather than an ink portrait, add `--sharp` so each glyph keeps the exact colour beneath it instead of a blurred area colour:
+
+```
+python tools/ascii2svg.py art/wheatfield.txt -o art/wheatfield.svg --color art/wheatfield.jpg --sharp
+```
