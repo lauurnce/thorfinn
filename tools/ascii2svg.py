@@ -13,6 +13,8 @@ from xml.sax.saxutils import escape
 FONT_SIZE = 10
 LINE_HEIGHT = 12
 FILL = "#c9d1d9"
+# GitHub's light-theme text colour, used when the viewer prefers a light scheme.
+FILL_LIGHT = "#1f2328"
 
 # Monospace glyphs advance about 0.6em, so each column is 6px at font-size 10.
 CHAR_WIDTH = FONT_SIZE * 0.6
@@ -26,6 +28,7 @@ def to_svg(lines: list) -> str:
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}">',
+        f"<style>@media (prefers-color-scheme: light) {{ g {{ fill: {FILL_LIGHT}; }} }}</style>",
         f'<g font-family="monospace" font-size="{FONT_SIZE}" fill="{FILL}" xml:space="preserve" style="white-space:pre">',
     ]
     for i, line in enumerate(lines):
