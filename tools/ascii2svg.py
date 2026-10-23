@@ -29,9 +29,18 @@ def to_svg(lines: list) -> str:
         f'<g font-family="monospace" font-size="{FONT_SIZE}" fill="{FILL}" xml:space="preserve" style="white-space:pre">',
     ]
     for i, line in enumerate(lines):
+        if not line.strip():
+            continue
         # y is the text baseline; sit it near the bottom of each 12px row
         y = (i + 1) * LINE_HEIGHT - (LINE_HEIGHT - FONT_SIZE)
-        out.append(f'<text x="0" y="{y}">{escape(line)}</text>')
+        # Browsers rendering an SVG as an <img> still collapse runs of spaces, so use
+        # non-breaking spaces, and pin each line's width so the viewer's monospace font
+        # can't drift the columns.
+        length = round(len(line) * CHAR_WIDTH, 2)
+        text = escape(line).replace(" ", " ")
+        out.append(
+            f'<text x="0" y="{y}" textLength="{length}" lengthAdjust="spacingAndGlyphs">{text}</text>'
+        )
     out.append("</g>")
     out.append("</svg>")
     return "\n".join(out) + "\n"
