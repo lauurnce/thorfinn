@@ -25,3 +25,9 @@ Renders an ASCII art `.txt` file as a transparent `.svg` so it can float beside 
 ```
 python tools/ascii2svg.py art/<name>.txt -o art/<name>.svg
 ```
+
+Add `--color` with the cut-out image to tint each glyph with the colour of that part of the picture, with a darker set of the same colours for light mode:
+
+```
+python tools/ascii2svg.py art/<name>.txt -o art/<name>.svg --color art/<name>-color.png
+```
