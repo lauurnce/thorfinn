@@ -1,3 +1,7 @@
 .claude/
 CLAUDE.local.md
 blueprint.md
+art/*.jpg
+art/*.jpeg
+art/*.png
+art/*.webp
