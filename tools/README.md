@@ -31,3 +31,11 @@ Add `--color` with the cut-out image to tint each glyph with the colour of that 
 ```
 python tools/ascii2svg.py art/<name>.txt -o art/<name>.svg --color art/<name>-color.png
 ```
+
+## card2svg.py
+
+Renders a member's art and description as one `.svg` card, with the text fitted row by row against the outline of the art. `--side right` puts the art on the right and right-aligns the text:
+
+```
+python tools/card2svg.py art/<name>.txt "Description." -o art/<name>-card.svg --side left
+```
