@@ -4,53 +4,29 @@ I built this because my days pull in too many directions at once: studies, work,
 
 It's written as a baseline anyone can use. Swap in your own sources, fill in the bracketed context in each prompt, and drop any member you don't need.
 
-<img src="art/leif.svg" align="left" width="300">
-
 ## Leif, the Navigator
 
-Schedule, commitments and information triage. Leif spent years crossing seas to keep one promise. He reads the calendar, email, chat and every council tab each morning, and by 9:00 AM leaves one brief: top three, conflicts, one decision. Runs daily.
-
-<br clear="left">
-
-<img src="art/einar.svg" align="left" width="300">
+<img src="art/leif-card.svg" width="800" alt="Schedule, commitments and information triage. Leif spent years crossing seas to keep one promise. He reads the calendar, email, chat and every council tab each morning, and by 9:00 AM leaves one brief: top three, conflicts, one decision. Runs daily.">
 
 ## Einar, the Farmer
 
-Studies and day-job work. Einar plows the same field every day until it yields. He tracks school and work deadlines and requests, and warns before exams and big deliverables. Runs twice a week.
-
-<br clear="left">
-
-<img src="art/askeladd.svg" align="left" width="300">
+<img src="art/einar-card.svg" width="800" alt="Studies and day-job work. Einar plows the same field every day until it yields. He tracks school and work deadlines and requests, and warns before exams and big deliverables. Runs twice a week.">
 
 ## Askeladd, the Strategist
 
-Ventures, side projects and strategy. Askeladd always has a plan behind the plan. He reads the venture's metrics against its own targets, red-teams the assumptions, and watches the pipeline and upcoming applications or launches. Blunt by design. Runs Sunday evening.
-
-<br clear="left">
-
-<img src="art/thors.svg" align="left" width="300">
+<img src="art/askeladd-card.svg" width="800" alt="Ventures, side projects and strategy. Askeladd always has a plan behind the plan. He reads the venture's metrics against its own targets, red-teams the assumptions, and watches the pipeline and upcoming applications or launches. Blunt by design. Runs Sunday evening.">
 
 ## Thors, the True Warrior
 
-A team, club or organisation you lead. Thors led by protecting his people before himself. He watches plans and goals, event countdowns, owner follow-ups and membership, and reminds the leader to build the crew, not carry it. Runs Sunday.
-
-<br clear="left">
-
-<img src="art/canute.svg" align="left" width="300">
+<img src="art/thors-card.svg" width="800" alt="A team, club or organisation you lead. Thors led by protecting his people before himself. He watches plans and goals, event countdowns, owner follow-ups and membership, and reminds the leader to build the crew, not carry it. Runs Sunday.">
 
 ## Canute, the King
 
-Finances. Canute learned to run a kingdom as an economy. He reads the finance sheet without ever touching it, reports spending against budget, flags unusual expenses, and keeps any group funds separate from personal money. Runs on the 1st of each month.
-
-<br clear="left">
-
-<img src="art/thorkell.svg" align="left" width="300">
+<img src="art/canute-card.svg" width="800" alt="Finances. Canute learned to run a kingdom as an economy. He reads the finance sheet without ever touching it, reports spending against budget, flags unusual expenses, and keeps any group funds separate from personal money. Runs on the 1st of each month.">
 
 ## Thorkell, the Giant
 
-Health and fitness. Thorkell loves a good fight and brings joy to the hard days. He reads the health log, counts sessions kept and nights slept, watches supplements and caffeine, and sets the week's plan with a grin. A coach, never a doctor. Runs Sunday.
-
-<br clear="left">
+<img src="art/thorkell-card.svg" width="800" alt="Health and fitness. Thorkell loves a good fight and brings joy to the hard days. He reads the health log, counts sessions kept and nights slept, watches supplements and caffeine, and sets the week's plan with a grin. A coach, never a doctor. Runs Sunday.">
 
 ## How it runs
 
