@@ -1,6 +1,6 @@
 # Setup
 
-Do these in order. The council Project lives in the ZVV Team org under lawrence.panes@zerovectorventures.com.
+Do these in order. The council Project lives in the ZVV Team org.
 
 - [ ] Connect Gmail and Google Calendar to paneslawrence8@gmail.com in the ZVV org.
 - [ ] Share the ZVV calendar into the personal calendar (See all event details).
