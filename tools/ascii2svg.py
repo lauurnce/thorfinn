@@ -29,13 +29,15 @@ COLOR_STEP = 32
 NBSP = " "
 
 
-def colour_grid(path: str, cols: int, rows: int):
+def colour_grid(path: str, cols: int, rows: int, sharp: bool = False):
     from PIL import Image, ImageFilter, ImageOps
 
     img = ImageOps.exif_transpose(Image.open(path)).convert("RGBA")
     # Blur first so thin ink lines pick up the colour of the area around them
-    # (hair, skin, cloth) instead of their own near-black.
-    img = img.filter(ImageFilter.GaussianBlur(img.width / 60))
+    # (hair, skin, cloth) instead of their own near-black. Scenes skip this with
+    # sharp=True so each glyph keeps the exact colour beneath it.
+    if not sharp:
+        img = img.filter(ImageFilter.GaussianBlur(img.width / 60))
     flat = Image.new("RGBA", img.size, (128, 128, 128, 255))
     flat.alpha_composite(img)
     return flat.convert("RGB").resize((cols, rows), Image.LANCZOS).load()
@@ -117,6 +119,7 @@ def main() -> int:
     p.add_argument("text", help="path to a .txt file of ASCII art")
     p.add_argument("-o", "--output", required=True, help="write the .svg to this path")
     p.add_argument("--color", help="image the art was made from; colours each glyph to match it")
+    p.add_argument("--sharp", action="store_true", help="with --color, skip the blur (for scenes, not ink portraits)")
     args = p.parse_args()
 
     try:
@@ -130,7 +133,7 @@ def main() -> int:
     if args.color:
         cols = max(len(line) for line in lines)
         try:
-            px = colour_grid(args.color, cols, len(lines))
+            px = colour_grid(args.color, cols, len(lines), args.sharp)
         except Exception as e:  # noqa: BLE001
             print(f"could not open {args.color}: {e}", file=sys.stderr)
             return 1
