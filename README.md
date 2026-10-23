@@ -1,4 +1,4 @@
-# askeladd
+# thorfinn
 
 I built this because my days pull in too many directions at once: studies, work, something I'm building, a group I lead, training, and money. The information never stops, and I was spending more energy sorting it than acting on it. So I set up a council of six advisors, each named after someone from Vinland Saga, to carry the noise for me. Each one reads only its own domain, writes only to its own tab, and never acts on my behalf. They advise, track and warn. I decide.
 
