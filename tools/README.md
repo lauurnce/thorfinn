@@ -17,3 +17,11 @@ python tools/img2ascii.py <image> -w 90 --invert -o art/<name>.txt
 ```
 
 `-w` sets the width in characters and `--invert` flips the tones for a light background. Leave out `-o` to print to the terminal instead.
+
+## ascii2svg.py
+
+Renders an ASCII art `.txt` file as a transparent `.svg` so it can float beside text in the README:
+
+```
+python tools/ascii2svg.py art/<name>.txt -o art/<name>.svg
+```
