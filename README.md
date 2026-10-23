@@ -1,12 +1,14 @@
 # askeladd
 
-I built this because my days pull in too many directions at once: classes at PUP, work at Analog Devices, my apprenticeship at Zero Vector Ventures, ILPP, the AWS Student Builder Group, training, and money. The information never stops, and I was spending more energy sorting it than acting on it. So I set up a council of six advisors, each named after someone from Vinland Saga, to carry the noise for me. Each one reads only its own domain, writes only to its own tab, and never acts on my behalf. They advise, track and warn. I decide.
+I built this because my days pull in too many directions at once: studies, work, something I'm building, a group I lead, training, and money. The information never stops, and I was spending more energy sorting it than acting on it. So I set up a council of six advisors, each named after someone from Vinland Saga, to carry the noise for me. Each one reads only its own domain, writes only to its own tab, and never acts on my behalf. They advise, track and warn. I decide.
+
+It's written as a baseline anyone can use. Swap in your own sources, fill in the bracketed context in each prompt, and drop any member you don't need.
 
 <img src="art/leif.svg" align="left" width="300">
 
 ## Leif, the Navigator
 
-Schedule, commitments and information triage. Leif spent years crossing seas to keep one promise. He reads my calendar, mail, Slack and every council tab each morning, and by 9:00 AM leaves me one brief: top three, conflicts, one decision. Runs daily.
+Schedule, commitments and information triage. Leif spent years crossing seas to keep one promise. He reads the calendar, email, chat and every council tab each morning, and by 9:00 AM leaves one brief: top three, conflicts, one decision. Runs daily.
 
 <br clear="left">
 
@@ -14,7 +16,7 @@ Schedule, commitments and information triage. Leif spent years crossing seas to 
 
 ## Einar, the Farmer
 
-Academics and my Analog Devices work. Einar plows the same field every day until it yields. He tracks my Classroom, Teams and PUP deadlines, my class-rep duties and my ADI tasks, and warns me before exams and submissions. Runs Sunday and Thursday.
+Studies and day-job work. Einar plows the same field every day until it yields. He tracks school and work deadlines and requests, and warns before exams and big deliverables. Runs twice a week.
 
 <br clear="left">
 
@@ -22,7 +24,7 @@ Academics and my Analog Devices work. Einar plows the same field every day until
 
 ## Askeladd, the Strategist
 
-ILPP, iLab and founder strategy. Askeladd always has a plan behind the plan. He scores Wave 1 against its own kill thresholds, red-teams my assumptions, and tracks my YC and Techstars prep and my ZVV hours. Blunt because I asked him to be. Runs Sunday evening.
+Ventures, side projects and strategy. Askeladd always has a plan behind the plan. He reads the venture's metrics against its own targets, red-teams the assumptions, and watches the pipeline and upcoming applications or launches. Blunt by design. Runs Sunday evening.
 
 <br clear="left">
 
@@ -30,7 +32,7 @@ ILPP, iLab and founder strategy. Askeladd always has a plan behind the plan. He 
 
 ## Thors, the True Warrior
 
-My captaincy of AWS Student Builder Group PUP. Thors led by protecting his people before himself. He watches quarter plans and KPIs, event countdowns, director follow-ups and recruitment, and reminds me to build the crew, not carry it. Runs Sunday.
+A team, club or organisation you lead. Thors led by protecting his people before himself. He watches plans and goals, event countdowns, owner follow-ups and membership, and reminds the leader to build the crew, not carry it. Runs Sunday.
 
 <br clear="left">
 
@@ -38,7 +40,7 @@ My captaincy of AWS Student Builder Group PUP. Thors led by protecting his peopl
 
 ## Canute, the King
 
-My finances and data room. Canute learned to run a kingdom as an economy. He reads my data room without ever touching it, reports spending against budget, flags unusual expenses, and keeps org funds separate from my personal money. Runs on the 1st of each month.
+Finances. Canute learned to run a kingdom as an economy. He reads the finance sheet without ever touching it, reports spending against budget, flags unusual expenses, and keeps any group funds separate from personal money. Runs on the 1st of each month.
 
 <br clear="left">
 
@@ -46,7 +48,7 @@ My finances and data room. Canute learned to run a kingdom as an economy. He rea
 
 ## Thorkell, the Giant
 
-Health and fitness. Thorkell loves a good fight and brings joy to the hard days. He reads my health log, counts sessions kept and nights slept, watches supplements and energy drinks, and sets my week's plan with a grin. A coach, never a doctor. Runs Sunday.
+Health and fitness. Thorkell loves a good fight and brings joy to the hard days. He reads the health log, counts sessions kept and nights slept, watches supplements and caffeine, and sets the week's plan with a grin. A coach, never a doctor. Runs Sunday.
 
 <br clear="left">
 
@@ -59,7 +61,7 @@ Health and fitness. Thorkell loves a good fight and brings joy to the hard days.
 
 ## Layout
 
-- `CHARTER.md`: the council charter that goes into the Project instructions.
+- `CHARTER.md`: the council charter that goes into the Project instructions, with placeholders to fill in.
 - `SCHEDULE.md`: when each member runs and what it reads and writes.
 - `members/`: one file per member with its role, scope, sources, cadence and prompt.
 - `hub-sheet.md`: the structure of the hub Sheet and its tabs.
