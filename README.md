@@ -46,4 +46,4 @@ It's written as a baseline anyone can use. Swap in your own sources, fill in the
 
 <br>
 
-<img src="art/wheatfield.svg" width="800" alt="Thorfinn standing in a golden wheat field under an open sky">
+<img src="art/wheatfield-v2.svg" width="800" alt="Thorfinn standing in a wheat field">
